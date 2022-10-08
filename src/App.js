@@ -1,36 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import Navigation from "./navigation"
+import Header from "./header.jsx"
+import Footer from  "./footer"
+import React from "react"
+// import Contact from "./contact"
 function App() {
-  const lizzie = {
-    name: "lizzie",
-    age: 21,
-    major: "geography",
-    star_sign: "leo"
-  }
-  const divya = {
-    name: "divya",
-    age: 21,
-    major: "computer science",
-    star_sign: "gemini"
-  }
-  const myFriends = [lizzie, divya];
-  const friendMap = myFriends.map((friend) => {
-    return(
-        <h1>{friend.name}</h1>
-    )
-  })
- 
-  return (
-    <div className = "friend">
-       <h1>{friend.name}</h1>
-       <p>
-         {friend.name} is {friend.age} years old.
-         She is a {friend.major} major.
-         Her star sign is {friend.star_sign}
-       </p>
-     </div>
-  );
+   return(
+    <div className = "App">
+      <Navigation />
+      <Header/>
+      <Footer/>
+
+    </div>
+   )
 }
 
 export default App;

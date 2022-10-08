@@ -1,0 +1,7 @@
+#contact{
+    position: relative;
+  z-index: 10;
+  width: 90vw;
+  max-width: 1232px;
+  margin: auto;
+}

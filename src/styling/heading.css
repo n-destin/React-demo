@@ -1,0 +1,59 @@
+.heading{
+    display: flex;
+    margin: 20px;
+    flex-direction: row;
+    height: 100%;
+    margin-bottom: 60px;
+}
+.image{
+    /* width: 50%; */
+    height: 500px;
+    width: 500px;
+    margin-bottom: 40px;
+}
+.descripiton{
+    margin-top: 60px;
+    width: 40%;
+    text-align: left;
+    margin-left: 150px;
+    margin-right: 90px;
+    align-items: left;
+    font-family: Courier;
+    /* margin-left: 60px; */
+}
+.name{
+    font-size: 40px;
+    margin-top: -20px;
+    color: green;
+}
+
+/* img{
+    margin-left: 20px;
+} */
+.btn-ping{
+    margin-top: 40px;
+    margin-left: 0px;
+    font-family: Courier;
+    background: transparent;
+    border: 1px solid green;
+}
+
+button.btn-ping:hover{
+    background-color: green;
+}
+
+.view{
+    display: none;
+}
+.popup{
+    font-size: 30px;
+    color: white;
+}
+
+.edit{
+    height: 90px;
+}
+
+.copyright{
+    text-align: right;
+}
