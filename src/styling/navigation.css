@@ -1,6 +1,6 @@
 
 body{
-    background-color: black;
+    background-color: transparent;
     height: 100%;
     width: 100%;
 }
@@ -53,7 +53,7 @@ footer{
 nav{
     height: 100px;
     position: sticky;
-    background-color: black;
+    background-color: transparent;
     top: 0px;
 }
 .nav-menu{

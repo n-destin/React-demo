@@ -1,7 +1,8 @@
 import React from "react";
 import "./styling/heading.css";
-import Me from "./assets/Destin 3DS.png"
-
+import Me from "./assets/Trans2.png"
+import Navigation from "./navigation";
+import Footer from "./footer"
 function Header (){
     // const [display, setdisplay] = useState(false)
     // let target =  document.getElementsByClassName("btn-ping")
@@ -13,6 +14,7 @@ function Header (){
 
    return(
        <div>
+        <Navigation/> 
         <header className="heading">
           <div className="descripiton">
             <h1>Hello, It's me.</h1>
@@ -31,6 +33,7 @@ function Header (){
             <div className="copyright"><p>&copy; 2022 Destin Niyomufasha All-rights reserved</p></div>
           </div> 
         </header>
+        <Footer/>
        </div>
    )
 }
