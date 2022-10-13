@@ -12,12 +12,8 @@
     margin-bottom: 40px;
     margin-left: -140px;
     margin-top: -40px;
-    filter: grayscale(0.7);
 }
 
-.image:hover{
-   filter: grayscale(0);
-}
 .descripiton{
     margin-top: 60px;
     width: 40%;

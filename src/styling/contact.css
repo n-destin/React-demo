@@ -1,7 +1,84 @@
 #contact{
-    position: relative;
-  z-index: 10;
-  width: 90vw;
-  max-width: 1232px;
-  margin: auto;
+  color: white;
+  margin-bottom: 200px;
+  display: flex;
+  align-items: right;
+  font-family: Courier;
+  background-repeat: none;
+  height: 100%;
+}
+
+#submit-btn{
+   background-color: #29b8ff;
+   margin-left: 0px;
+}
+h2{
+  color: #29b8ff;
+}
+input{
+  height: 20px;
+  width:500px;
+  border-radius: 3px;
+  margin: none;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  font-size: 15px;
+  padding: 10px;
+  border: 3px solid #29b8ff ;
+}
+
+textarea{
+  height: 240px;
+  width: 500px;
+  border-radius: 3px;
+  margin: none;
+  border: 3px solid #29b8ff ;
+  margin-top: 8px;
+}
+
+form{
+  display: flex;
+  margin-left: 150px;
+  /* align-items: center; */
+}
+
+.grid-1{
+   margin-left: 100px;
+}
+
+.grid3{
+  text-align: center;
+  display: flex;
+}
+
+
+.connect{
+  margin-top: 90px;
+ text-align: center;
+}
+
+label{
+  font-size: 20px;
+  color: white;
+}
+
+.item{
+  margin-left: 90px;
+  border: 2px solid rgb(94, 87, 87);
+  width: 350px;
+  border-radius: 15px;
+  color: #29b8ff;
+  /* background-color: #29b8ff; */
+}
+
+.itema:hover{
+  background-color: #29b8ff;
+  transition: 300ms;
+  border: 2px solid #29b8ff;
+  color: white;
+}
+
+.item a :hover{
+   color: white;
 }
